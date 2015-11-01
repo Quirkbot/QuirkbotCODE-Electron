@@ -1,0 +1,26 @@
+{
+  "applicationName"  : "QuirkbotCODE",
+  "electronVersion"  : "0.27.1",
+  "authors"          : "Quirkbot",
+
+  "buildsDirectory"  : "./builds",
+  "releaseDirectory" : "./releases",
+
+  "platform"         : "all",
+  "arch"             : "all",
+
+  "ignorePackages"   : [
+    "electron-packager",
+    "grunt",
+    "grunt-cli",
+    "grunt-contrib-clean",
+    "grunt-electron-installer",
+    "node-inspector",
+    "open",
+    "progressbar",
+    "s3"],
+
+   "s3BucketName"    : "{{squirrel-s3-bucket}}",
+   "s3PrefixName"    : "{{squirrel-s3-bucket-prefix}}",
+   "windowsUpdateUrl": "{{squirrel-windows-update-url}}"
+}

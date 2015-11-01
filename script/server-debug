@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+echo ---------------------------------------------------------------
+echo
+echo Hello Human
+echo Let''s see debug some science!
+echo
+echo ---------------------------------------------------------------
+echo
+
+echo Staring node inspector, and your app in debug mode
+grunt debug
+
+echo
+echo ---------------------------------------------------------------
+echo
+echo Done!

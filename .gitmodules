@@ -1,0 +1,6 @@
+[submodule "submodules/QuirkbotCODE"]
+	path = submodules/QuirkbotCODE
+	url = https://github.com/Quirkbot/QuirkbotCODE.git
+[submodule "submodules/QuirkbotChromeApp"]
+	path = submodules/QuirkbotChromeApp
+	url = https://github.com/Quirkbot/QuirkbotChromeApp.git

@@ -1,0 +1,23 @@
+{
+  "name": "QuirkbotCODE",
+  "version": "0.0.1",
+  "description": "QuirkbotCODE cross platform application.",
+  "repository": "https://github.com/Quirkbot/QuirkbotCODE-Electron",
+  "main": "src/main.js",
+  "dependencies": {
+      "serialport": "2.0.2"
+  },
+  "devDependencies": {
+    "electron-packager": "*",
+    "electron-prebuilt": "*",
+    "electron-rebuild": "*",
+    "grunt-cli": "*",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-electron-installer": "^0.37.0",
+    "node-inspector": "^0.12.2",
+    "open": "0.0.5",
+    "progressbar": "^1.0.3",
+    "s3": "^4.4.0"
+  }
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <pre id="console">Serial ports...</pre>
+    <script>
+        var sp = require('serialport');
+
+        var printPorts = function (argument) {
+            sp.list(function(err, ports) {
+                document.getElementById('console').innerHTML = JSON.stringify(ports, null, "\t");
+            });
+        }
+        setInterval(printPorts, 1000);
+
+    </script>
+  </body>
+</html>
