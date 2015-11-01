@@ -7,6 +7,7 @@ QuirkbotCODE is a cross platform application, built on [Electron](https://github
 Clone this repository, including submodules
 ```
 git clone https://github.com/Quirkbot/QuirkbotCODE-Electron --recursive
+cd QuirkbotCODE-Electron
 ```
 
 Install npm dependencies
@@ -28,6 +29,7 @@ mv node_modules/serialport/build/serialport/v2.0.2/Release/electron-v0.34-darwin
 Everything in one go:
 ```
 git clone https://github.com/Quirkbot/QuirkbotCODE-Electron --recursive
+cd QuirkbotCODE-Electron
 npm install
 node ./node_modules/.bin/electron-rebuild
 mv node_modules/serialport/build/serialport/v2.0.2/Release/electron-v0.34-darwin-x64 node_modules/serialport/build/serialport/v2.0.2/Release/node-v46-darwin-x64
